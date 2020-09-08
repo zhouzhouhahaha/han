@@ -81,10 +81,15 @@ public class Goods {
 		super();
 	}
 
-	@Override
-	public String toString() {
-		return "Goods [id=" + id + ", name=" + name + ", price=" + price + ", createDate=" + createDate + ", keepDate="
-				+ keepDate + ", weight=" + weight + ", content=" + content + "]";
+	public Goods(int id, String name, String createDate, String keepDate, String weight, String content) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.createDate = createDate;
+		this.keepDate = keepDate;
+		this.weight = weight;
+		this.content = content;
 	}
 
+	
 }
