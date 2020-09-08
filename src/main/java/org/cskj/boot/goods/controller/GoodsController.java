@@ -49,6 +49,7 @@ public class GoodsController {
 	
 	@PostMapping(value="queryGoodsById")
 	public Goods queryGoodsById(@RequestBody Goods goods) {
+		System.out.println("123456");
 		return gs.queryGoodsById(goods);
 	}
 	
